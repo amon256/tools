@@ -23,6 +23,7 @@ import tools.xml.read.meta.metatype.StringXmlMetaType;
  */
 public class ReadTest {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws FileNotFoundException {
 		XmlReader reader = new XmlReader(new FileInputStream("C:\\Users\\fengmengyue\\Desktop\\s.xml"));
 		XmlMetaType<Smsp> rootType = createMetaType();//new ObjectXmlMetaType<HashMap>(HashMap.class);
@@ -35,6 +36,7 @@ public class ReadTest {
 		System.out.println(System.currentTimeMillis() - start);
 	}
 	
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	private static XmlMetaType createMetaType(){
 		XmlMetaType smssp = new ObjectXmlMetaType(Smsp.class);
 		smssp.addChildXmlMetaTypes("SpName", new StringXmlMetaType("spName"));
