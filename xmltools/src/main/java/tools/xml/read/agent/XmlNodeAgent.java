@@ -9,7 +9,7 @@ import tools.xml.read.meta.XmlNodeType;
 
 /**  
  * 功能描述：xml事件处理总线
- * 
+ * TODO 事件链
  * @author FengMy
  * @since 2014年10月15日
  */

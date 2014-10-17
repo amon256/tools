@@ -59,15 +59,15 @@ public abstract class XmlMetaType<T> {
 		return childXmlMetaTypes;
 	}
 
-	public void addChildXmlMetaTypes(String fieldName,XmlMetaType<?> childXmlMetaType) {
-		if(fieldName == null || "".equals(fieldName.trim())){
-			throw new IllegalArgumentException("fieldName is empty");
+	public void addChildXmlMetaTypes(String nodeName,XmlMetaType<?> childXmlMetaType) {
+		if(nodeName == null || "".equals(nodeName.trim())){
+			throw new IllegalArgumentException("nodeName is empty");
 		}
 		if(childXmlMetaType == null){
-			this.childXmlMetaTypes.remove(fieldName);
+			this.childXmlMetaTypes.remove(nodeName);
 		}else{
 			childXmlMetaType.setParentXmlMetaType(this);
-			this.childXmlMetaTypes.put(fieldName, childXmlMetaType);
+			this.childXmlMetaTypes.put(nodeName, childXmlMetaType);
 		}
 	}
 

@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MonternetSpData>
+	<EventId>0000_1002_1001_20141009180001</EventId>
+	<List>
+		<MonternetSp>
+			<SpName>820015up</SpName>
+			<AllowWapPushMsg>1</AllowWapPushMsg>
+			<UpdateDescription />
+			<ProcId>1001000020140930113402002068</ProcId>
+			<ProtocolType>CMPP2.0</ProtocolType>
+			<ConnectionNum />
+			<NeedApprove />
+			<TaskId>G100120140930339</TaskId>
+			<PlateformIP>10.10.10.101</PlateformIP>
+			<NewSPCode>810001</NewSPCode>
+			<Province>江西</Province>
+			<ValidCode>du1001</ValidCode>
+			<MakeProvince>0000</MakeProvince>
+			<GWCode>079102</GWCode>
+			<Trust>1</Trust>
+			<OldSPCode />
+			<Memo>456up1</Memo>
+			<SpId>914801</SpId>
+			<ProvinceList>
+				<Province>
+					<Status>00</Status>
+					<GWCode>045101</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>0451</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>073102</GWCode>
+					<SpId />
+					<ProvinceCode>0731</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>043101</GWCode>
+					<SpId />
+					<ProvinceCode>0431</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>11</Status>
+					<GWCode>079102</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>0791</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>047101</GWCode>
+					<SpId />
+					<ProvinceCode>0471</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>095101</GWCode>
+					<SpId />
+					<ProvinceCode>0951</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>097101</GWCode>
+					<SpId />
+					<ProvinceCode>0971</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>035102</GWCode>
+					<SpId />
+					<ProvinceCode>0351</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002901</GWCode>
+					<SpId />
+					<ProvinceCode>029</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>089101</GWCode>
+					<SpId />
+					<ProvinceCode>0891</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>099101</GWCode>
+					<SpId />
+					<ProvinceCode>0991</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>087101</GWCode>
+					<SpId />
+					<ProvinceCode>0871</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>059101</GWCode>
+					<SpId>913801</SpId>
+					<ProvinceCode>0591</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>057101</GWCode>
+					<SpId />
+					<ProvinceCode>0571</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002502</GWCode>
+					<SpId />
+					<ProvinceCode>025</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002102</GWCode>
+					<SpId />
+					<ProvinceCode>021</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>053101</GWCode>
+					<SpId />
+					<ProvinceCode>0531</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002001</GWCode>
+					<SpId />
+					<ProvinceCode>020</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>037102</GWCode>
+					<SpId />
+					<ProvinceCode>0371</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>001010</GWCode>
+					<SpId />
+					<ProvinceCode>010</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>01</Status>
+					<GWCode>002401</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>024</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002701</GWCode>
+					<SpId />
+					<ProvinceCode>027</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002801</GWCode>
+					<SpId />
+					<ProvinceCode>028</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002301</GWCode>
+					<SpId />
+					<ProvinceCode>023</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>01</Status>
+					<GWCode>002201</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>022</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>055101</GWCode>
+					<SpId />
+					<ProvinceCode>0551</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>093101</GWCode>
+					<SpId />
+					<ProvinceCode>0931</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>077101</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>0771</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>085101</GWCode>
+					<SpId />
+					<ProvinceCode>0851</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>089801</GWCode>
+					<SpId />
+					<ProvinceCode>0898</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>031101</GWCode>
+					<SpId />
+					<ProvinceCode>0311</ProvinceCode>
+				</Province>
+			</ProvinceList>
+			<UpdateFlag>0</UpdateFlag>
+			<ValidTime>20140930113222</ValidTime>
+			<SpProperty>1</SpProperty>
+			<FlowControl />
+		</MonternetSp>
+		<MonternetSp>
+			<SpName>820015up</SpName>
+			<AllowWapPushMsg>1</AllowWapPushMsg>
+			<UpdateDescription />
+			<ProcId>1001000020141009103317002069</ProcId>
+			<ProtocolType>CMPP2.0</ProtocolType>
+			<ConnectionNum />
+			<NeedApprove />
+			<TaskId>G100120141009345</TaskId>
+			<PlateformIP>10.10.10.101</PlateformIP>
+			<NewSPCode>810002</NewSPCode>
+			<Province>江西</Province>
+			<ValidCode>du1002</ValidCode>
+			<MakeProvince>0000</MakeProvince>
+			<GWCode>079102</GWCode>
+			<Trust>1</Trust>
+			<OldSPCode />
+			<Memo>456up1</Memo>
+			<SpId>914801</SpId>
+			<ProvinceList>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002502</GWCode>
+					<SpId />
+					<ProvinceCode>025</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002102</GWCode>
+					<SpId />
+					<ProvinceCode>021</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>053101</GWCode>
+					<SpId />
+					<ProvinceCode>0531</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002001</GWCode>
+					<SpId />
+					<ProvinceCode>020</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>037102</GWCode>
+					<SpId />
+					<ProvinceCode>0371</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>001010</GWCode>
+					<SpId />
+					<ProvinceCode>010</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>01</Status>
+					<GWCode>002401</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>024</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002701</GWCode>
+					<SpId />
+					<ProvinceCode>027</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002801</GWCode>
+					<SpId />
+					<ProvinceCode>028</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002301</GWCode>
+					<SpId />
+					<ProvinceCode>023</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>01</Status>
+					<GWCode>002201</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>022</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>055101</GWCode>
+					<SpId />
+					<ProvinceCode>0551</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>093101</GWCode>
+					<SpId />
+					<ProvinceCode>0931</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>077101</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>0771</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>085101</GWCode>
+					<SpId />
+					<ProvinceCode>0851</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>089801</GWCode>
+					<SpId />
+					<ProvinceCode>0898</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>031101</GWCode>
+					<SpId />
+					<ProvinceCode>0311</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>045101</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>0451</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>073102</GWCode>
+					<SpId />
+					<ProvinceCode>0731</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>043101</GWCode>
+					<SpId />
+					<ProvinceCode>0431</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>11</Status>
+					<GWCode>079102</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>0791</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>047101</GWCode>
+					<SpId />
+					<ProvinceCode>0471</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>095101</GWCode>
+					<SpId />
+					<ProvinceCode>0951</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>097101</GWCode>
+					<SpId />
+					<ProvinceCode>0971</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>035102</GWCode>
+					<SpId />
+					<ProvinceCode>0351</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002901</GWCode>
+					<SpId />
+					<ProvinceCode>029</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>089101</GWCode>
+					<SpId />
+					<ProvinceCode>0891</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>099101</GWCode>
+					<SpId />
+					<ProvinceCode>0991</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>087101</GWCode>
+					<SpId />
+					<ProvinceCode>0871</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>059101</GWCode>
+					<SpId>913801</SpId>
+					<ProvinceCode>0591</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>057101</GWCode>
+					<SpId />
+					<ProvinceCode>0571</ProvinceCode>
+				</Province>
+			</ProvinceList>
+			<UpdateFlag>0</UpdateFlag>
+			<ValidTime>20141009103334</ValidTime>
+			<SpProperty>1</SpProperty>
+			<FlowControl />
+		</MonternetSp>
+		<MonternetSp>
+			<SpName>820015up</SpName>
+			<AllowWapPushMsg>1</AllowWapPushMsg>
+			<UpdateDescription />
+			<ProcId>1001000020141009104105002070</ProcId>
+			<ProtocolType>CMPP3.0</ProtocolType>
+			<ConnectionNum />
+			<NeedApprove />
+			<TaskId>G100120141009346</TaskId>
+			<PlateformIP>10.10.10.101</PlateformIP>
+			<NewSPCode>810003</NewSPCode>
+			<Province>江西</Province>
+			<ValidCode>du1003</ValidCode>
+			<MakeProvince>0000</MakeProvince>
+			<GWCode>079102</GWCode>
+			<Trust>1</Trust>
+			<OldSPCode />
+			<Memo>456up1</Memo>
+			<SpId>914801</SpId>
+			<ProvinceList>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002502</GWCode>
+					<SpId />
+					<ProvinceCode>025</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002102</GWCode>
+					<SpId />
+					<ProvinceCode>021</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>053101</GWCode>
+					<SpId />
+					<ProvinceCode>0531</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002001</GWCode>
+					<SpId />
+					<ProvinceCode>020</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>037102</GWCode>
+					<SpId />
+					<ProvinceCode>0371</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>001010</GWCode>
+					<SpId />
+					<ProvinceCode>010</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>01</Status>
+					<GWCode>002401</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>024</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002701</GWCode>
+					<SpId />
+					<ProvinceCode>027</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002801</GWCode>
+					<SpId />
+					<ProvinceCode>028</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002301</GWCode>
+					<SpId />
+					<ProvinceCode>023</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>01</Status>
+					<GWCode>002201</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>022</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>055101</GWCode>
+					<SpId />
+					<ProvinceCode>0551</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>093101</GWCode>
+					<SpId />
+					<ProvinceCode>0931</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>077101</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>0771</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>085101</GWCode>
+					<SpId />
+					<ProvinceCode>0851</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>089801</GWCode>
+					<SpId />
+					<ProvinceCode>0898</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>031101</GWCode>
+					<SpId />
+					<ProvinceCode>0311</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>045101</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>0451</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>073102</GWCode>
+					<SpId />
+					<ProvinceCode>0731</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>043101</GWCode>
+					<SpId />
+					<ProvinceCode>0431</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>11</Status>
+					<GWCode>079102</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>0791</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>047101</GWCode>
+					<SpId />
+					<ProvinceCode>0471</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>095101</GWCode>
+					<SpId />
+					<ProvinceCode>0951</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>097101</GWCode>
+					<SpId />
+					<ProvinceCode>0971</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>035102</GWCode>
+					<SpId />
+					<ProvinceCode>0351</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002901</GWCode>
+					<SpId />
+					<ProvinceCode>029</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>089101</GWCode>
+					<SpId />
+					<ProvinceCode>0891</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>099101</GWCode>
+					<SpId />
+					<ProvinceCode>0991</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>087101</GWCode>
+					<SpId />
+					<ProvinceCode>0871</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>059101</GWCode>
+					<SpId>913801</SpId>
+					<ProvinceCode>0591</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>057101</GWCode>
+					<SpId />
+					<ProvinceCode>0571</ProvinceCode>
+				</Province>
+			</ProvinceList>
+			<UpdateFlag>0</UpdateFlag>
+			<ValidTime>20141009104126</ValidTime>
+			<SpProperty>1</SpProperty>
+			<FlowControl />
+		</MonternetSp>
+		<MonternetSp>
+			<SpName>820015up</SpName>
+			<AllowWapPushMsg>1</AllowWapPushMsg>
+			<UpdateDescription />
+			<ProcId>1001000020141009104508002071</ProcId>
+			<ProtocolType>CMPP3.0</ProtocolType>
+			<ConnectionNum />
+			<NeedApprove />
+			<TaskId>G100120141009347</TaskId>
+			<PlateformIP>10.10.10.101</PlateformIP>
+			<NewSPCode>810004</NewSPCode>
+			<Province>江西</Province>
+			<ValidCode>du1004</ValidCode>
+			<MakeProvince>0000</MakeProvince>
+			<GWCode>079102</GWCode>
+			<Trust>1</Trust>
+			<OldSPCode />
+			<Memo>456up1</Memo>
+			<SpId>914801</SpId>
+			<ProvinceList>
+				<Province>
+					<Status>00</Status>
+					<GWCode>059101</GWCode>
+					<SpId>913801</SpId>
+					<ProvinceCode>0591</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>057101</GWCode>
+					<SpId />
+					<ProvinceCode>0571</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002502</GWCode>
+					<SpId />
+					<ProvinceCode>025</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002102</GWCode>
+					<SpId />
+					<ProvinceCode>021</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>053101</GWCode>
+					<SpId />
+					<ProvinceCode>0531</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002001</GWCode>
+					<SpId />
+					<ProvinceCode>020</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>037102</GWCode>
+					<SpId />
+					<ProvinceCode>0371</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>001010</GWCode>
+					<SpId />
+					<ProvinceCode>010</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>01</Status>
+					<GWCode>002401</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>024</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002701</GWCode>
+					<SpId />
+					<ProvinceCode>027</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002801</GWCode>
+					<SpId />
+					<ProvinceCode>028</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002301</GWCode>
+					<SpId />
+					<ProvinceCode>023</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>01</Status>
+					<GWCode>002201</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>022</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>055101</GWCode>
+					<SpId />
+					<ProvinceCode>0551</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>093101</GWCode>
+					<SpId />
+					<ProvinceCode>0931</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>077101</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>0771</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>085101</GWCode>
+					<SpId />
+					<ProvinceCode>0851</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>089801</GWCode>
+					<SpId />
+					<ProvinceCode>0898</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>031101</GWCode>
+					<SpId />
+					<ProvinceCode>0311</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>045101</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>0451</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>073102</GWCode>
+					<SpId />
+					<ProvinceCode>0731</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>043101</GWCode>
+					<SpId />
+					<ProvinceCode>0431</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>11</Status>
+					<GWCode>079102</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>0791</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>047101</GWCode>
+					<SpId />
+					<ProvinceCode>0471</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>095101</GWCode>
+					<SpId />
+					<ProvinceCode>0951</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>097101</GWCode>
+					<SpId />
+					<ProvinceCode>0971</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>035102</GWCode>
+					<SpId />
+					<ProvinceCode>0351</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002901</GWCode>
+					<SpId />
+					<ProvinceCode>029</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>089101</GWCode>
+					<SpId />
+					<ProvinceCode>0891</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>099101</GWCode>
+					<SpId />
+					<ProvinceCode>0991</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>087101</GWCode>
+					<SpId />
+					<ProvinceCode>0871</ProvinceCode>
+				</Province>
+			</ProvinceList>
+			<UpdateFlag>0</UpdateFlag>
+			<ValidTime>20141009104531</ValidTime>
+			<SpProperty>1</SpProperty>
+			<FlowControl />
+		</MonternetSp>
+		<MonternetSp>
+			<SpName>820015up</SpName>
+			<AllowWapPushMsg>1</AllowWapPushMsg>
+			<UpdateDescription />
+			<ProcId>1001000020141009110729002072</ProcId>
+			<ProtocolType>CMPP3.0</ProtocolType>
+			<ConnectionNum />
+			<NeedApprove />
+			<TaskId>G100120141009348</TaskId>
+			<PlateformIP>10.10.10.101</PlateformIP>
+			<NewSPCode>810005</NewSPCode>
+			<Province>江西</Province>
+			<ValidCode>du1005</ValidCode>
+			<MakeProvince>0000</MakeProvince>
+			<GWCode>079102</GWCode>
+			<Trust>1</Trust>
+			<OldSPCode />
+			<Memo>456up1</Memo>
+			<SpId>914801</SpId>
+			<ProvinceList>
+				<Province>
+					<Status>00</Status>
+					<GWCode>059101</GWCode>
+					<SpId>913801</SpId>
+					<ProvinceCode>0591</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>057101</GWCode>
+					<SpId />
+					<ProvinceCode>0571</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002502</GWCode>
+					<SpId />
+					<ProvinceCode>025</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002102</GWCode>
+					<SpId />
+					<ProvinceCode>021</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>053101</GWCode>
+					<SpId />
+					<ProvinceCode>0531</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002001</GWCode>
+					<SpId />
+					<ProvinceCode>020</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>037102</GWCode>
+					<SpId />
+					<ProvinceCode>0371</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>001010</GWCode>
+					<SpId />
+					<ProvinceCode>010</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>01</Status>
+					<GWCode>002401</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>024</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002701</GWCode>
+					<SpId />
+					<ProvinceCode>027</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002801</GWCode>
+					<SpId />
+					<ProvinceCode>028</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002301</GWCode>
+					<SpId />
+					<ProvinceCode>023</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>01</Status>
+					<GWCode>002201</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>022</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>055101</GWCode>
+					<SpId />
+					<ProvinceCode>0551</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>093101</GWCode>
+					<SpId />
+					<ProvinceCode>0931</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>077101</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>0771</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>085101</GWCode>
+					<SpId />
+					<ProvinceCode>0851</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>089801</GWCode>
+					<SpId />
+					<ProvinceCode>0898</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>031101</GWCode>
+					<SpId />
+					<ProvinceCode>0311</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>045101</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>0451</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>073102</GWCode>
+					<SpId />
+					<ProvinceCode>0731</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>043101</GWCode>
+					<SpId />
+					<ProvinceCode>0431</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>11</Status>
+					<GWCode>079102</GWCode>
+					<SpId>914801</SpId>
+					<ProvinceCode>0791</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>047101</GWCode>
+					<SpId />
+					<ProvinceCode>0471</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>095101</GWCode>
+					<SpId />
+					<ProvinceCode>0951</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>097101</GWCode>
+					<SpId />
+					<ProvinceCode>0971</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>035102</GWCode>
+					<SpId />
+					<ProvinceCode>0351</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>002901</GWCode>
+					<SpId />
+					<ProvinceCode>029</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>089101</GWCode>
+					<SpId />
+					<ProvinceCode>0891</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>099101</GWCode>
+					<SpId />
+					<ProvinceCode>0991</ProvinceCode>
+				</Province>
+				<Province>
+					<Status>00</Status>
+					<GWCode>087101</GWCode>
+					<SpId />
+					<ProvinceCode>0871</ProvinceCode>
+				</Province>
+			</ProvinceList>
+			<UpdateFlag>0</UpdateFlag>
+			<ValidTime>20141009120449</ValidTime>
+			<SpProperty>1</SpProperty>
+			<FlowControl />
+		</MonternetSp>
+	</List>
+</MonternetSpData>
+

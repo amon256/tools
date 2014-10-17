@@ -99,6 +99,11 @@ public class DefaultEventHandler<T> implements XmlNodeHandler {
 		}
 	}
 	
+	/**
+	 * 将节点数据组装到对象去
+	 * @param metaType
+	 * @param v
+	 */
 	@SuppressWarnings("unchecked")
 	private void assemObject(XmlMetaType<?> metaType,Object v){
 		//将此节点对象赋为上级节点对象属性
@@ -161,6 +166,11 @@ public class DefaultEventHandler<T> implements XmlNodeHandler {
 		}
 	}
 	
+	/**
+	 * 是否叶子节点
+	 * @param metaType
+	 * @return
+	 */
 	protected boolean isLeaf(XmlMetaType<?> metaType){
 		return metaType.getChildXmlMetaTypes() == null || metaType.getChildXmlMetaTypes().isEmpty();
 	}
