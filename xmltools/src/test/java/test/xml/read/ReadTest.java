@@ -9,6 +9,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 import javax.xml.parsers.ParserConfigurationException;
 
@@ -31,14 +32,17 @@ public class ReadTest {
 
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws SAXException, IOException, ParserConfigurationException {
-		XmlReader reader = new XmlReader(ReadTest.class.getClassLoader().getResourceAsStream("smsp.xml"));
+		XmlReader reader = new XmlReader(new FileInputStream("C:/Users/fengmengyue/Desktop/s.xml"));
 		XmlMetaType<Smsp> rootType = readMetaType("XmlMeta.xml");//createMetaType();//new ObjectXmlMetaType<HashMap>(HashMap.class);
 		long start = System.currentTimeMillis();
+		final LinkedList<Smsp> smspList = new LinkedList<Smsp>();
 		reader.readAsObject(rootType, "MonternetSpData/List/MonternetSp",new RootObjectAccessor<Smsp>() {
 			@Override
 			public void access(Smsp object) {
+//				smspList.add(object);
 			}
 		});
+		System.gc();
 		System.out.println(System.currentTimeMillis() - start);
 	}
 	
