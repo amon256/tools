@@ -32,14 +32,14 @@ public class ReadTest {
 
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws SAXException, IOException, ParserConfigurationException {
-		XmlReader reader = new XmlReader(new FileInputStream("C:/Users/fengmengyue/Desktop/s.xml"));
+		XmlReader reader = new XmlReader(ParseTest.class.getClassLoader().getResourceAsStream("smsp.xml"));
 		XmlMetaType<Smsp> rootType = readMetaType("XmlMeta.xml");//createMetaType();//new ObjectXmlMetaType<HashMap>(HashMap.class);
 		long start = System.currentTimeMillis();
 		final LinkedList<Smsp> smspList = new LinkedList<Smsp>();
 		reader.readAsObject(rootType, "MonternetSpData/List/MonternetSp",new RootObjectAccessor<Smsp>() {
 			@Override
 			public void access(Smsp object) {
-//				smspList.add(object);
+				System.out.println(object.toString());
 			}
 		});
 		System.gc();

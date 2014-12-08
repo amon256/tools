@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node nodeName="SmsGwSection" nodeType="Object" classType="test.xml.read.save.SmsGwSec">
+	<node nodeName="Section" fieldName="section" nodeType="String" />
+	<node nodeName="ProvinceName" fieldName="provinceName" nodeType="String" />
+	<node nodeName="ProvinceCode" fieldName="provinceCode" nodeType="String" />
+	<node nodeName="UpdateFlag" fieldName="updateFlag" nodeType="String" />
+</node>
