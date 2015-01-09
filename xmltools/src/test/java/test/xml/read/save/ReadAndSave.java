@@ -7,12 +7,7 @@ package test.xml.read.save;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.Date;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.sql.Types;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -20,10 +15,10 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import org.xml.sax.SAXException;
 
+import tools.xml.meta.XmlMetaType;
+import tools.xml.meta.metatype.parse.XmlMetaTypeParser;
 import tools.xml.read.RootObjectAccessor;
 import tools.xml.read.XmlReader;
-import tools.xml.read.meta.XmlMetaType;
-import tools.xml.read.meta.metatype.parse.XmlMetaTypeParser;
 
 /**  
  * 功能描述：

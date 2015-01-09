@@ -3,11 +3,11 @@
  * @author FengMy
  * @since 2014年10月15日
  */
-package tools.xml.read.meta.metatype;
+package tools.xml.meta.metatype;
 
 import java.math.BigDecimal;
 
-import tools.xml.read.meta.XmlMetaType;
+import tools.xml.meta.XmlMetaType;
 
 /**  
  * 功能描述：

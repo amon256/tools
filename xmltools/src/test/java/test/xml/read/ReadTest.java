@@ -5,8 +5,6 @@
  */
 package test.xml.read;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -15,12 +13,12 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import org.xml.sax.SAXException;
 
+import tools.xml.meta.XmlMetaType;
+import tools.xml.meta.metatype.ObjectXmlMetaType;
+import tools.xml.meta.metatype.StringXmlMetaType;
+import tools.xml.meta.metatype.parse.XmlMetaTypeParser;
 import tools.xml.read.RootObjectAccessor;
 import tools.xml.read.XmlReader;
-import tools.xml.read.meta.XmlMetaType;
-import tools.xml.read.meta.metatype.ObjectXmlMetaType;
-import tools.xml.read.meta.metatype.StringXmlMetaType;
-import tools.xml.read.meta.metatype.parse.XmlMetaTypeParser;
 
 /**  
  * 功能描述：

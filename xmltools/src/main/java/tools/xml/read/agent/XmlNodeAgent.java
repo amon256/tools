@@ -5,7 +5,7 @@
  */
 package tools.xml.read.agent;
 
-import tools.xml.read.meta.XmlNodeType;
+import tools.xml.read.eventhandler.XmlNodeType;
 
 /**  
  * 功能描述：xml事件处理总线

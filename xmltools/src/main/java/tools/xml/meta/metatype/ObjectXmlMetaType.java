@@ -3,9 +3,9 @@
  * @author FengMy
  * @since 2014年10月15日
  */
-package tools.xml.read.meta.metatype;
+package tools.xml.meta.metatype;
 
-import tools.xml.read.meta.XmlMetaType;
+import tools.xml.meta.XmlMetaType;
 
 /**  
  * 功能描述：非原生数据类型和String类型使用，T必须提供无参构造函数，否则要自行实现

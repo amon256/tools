@@ -23,4 +23,11 @@
 			</plugin>
 		</plugins>
 	</build>
+	<dependencies>
+		<dependency>
+		  	<groupId>oracle</groupId>
+		 	<artifactId>oracle-ojdbc</artifactId>
+		  	<version>6</version>
+		</dependency>
+	</dependencies>
 </project>

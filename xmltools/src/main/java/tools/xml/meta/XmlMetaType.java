@@ -3,7 +3,7 @@
  * @author FengMy
  * @since 2014年10月15日
  */
-package tools.xml.read.meta;
+package tools.xml.meta;
 
 import java.util.HashMap;
 import java.util.Map;

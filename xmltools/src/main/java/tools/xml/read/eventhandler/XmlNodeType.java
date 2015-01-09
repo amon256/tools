@@ -3,7 +3,7 @@
  * @author FengMy
  * @since 2014年10月16日
  */
-package tools.xml.read.meta;
+package tools.xml.read.eventhandler;
 
 /**  
  * 功能描述：

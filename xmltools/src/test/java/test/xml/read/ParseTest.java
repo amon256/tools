@@ -11,8 +11,8 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import org.xml.sax.SAXException;
 
-import tools.xml.read.meta.XmlMetaType;
-import tools.xml.read.meta.metatype.parse.XmlMetaTypeParser;
+import tools.xml.meta.XmlMetaType;
+import tools.xml.meta.metatype.parse.XmlMetaTypeParser;
 
 /**  
  * 功能描述：

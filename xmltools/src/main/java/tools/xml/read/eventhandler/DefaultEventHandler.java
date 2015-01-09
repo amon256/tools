@@ -3,7 +3,7 @@
  * @author FengMy
  * @since 2014年10月15日
  */
-package tools.xml.read.meta;
+package tools.xml.read.eventhandler;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
@@ -15,6 +15,7 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import tools.xml.meta.XmlMetaType;
 import tools.xml.read.RootObjectAccessor;
 import tools.xml.read.agent.XmlNodeHandler;
 

@@ -3,7 +3,7 @@
  * @author FengMy
  * @since 2014年10月17日
  */
-package tools.xml.read.meta.metatype.parse;
+package tools.xml.meta.metatype.parse;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -19,18 +19,18 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import tools.xml.read.meta.XmlMetaType;
-import tools.xml.read.meta.metatype.BigDecimalXmlMetaType;
-import tools.xml.read.meta.metatype.BooleanXmlMetaType;
-import tools.xml.read.meta.metatype.ByteXmlMetaType;
-import tools.xml.read.meta.metatype.DateXmlMetaType;
-import tools.xml.read.meta.metatype.DoubleXmlMetaType;
-import tools.xml.read.meta.metatype.FloatXmlMetaType;
-import tools.xml.read.meta.metatype.IntegerXmlMetaType;
-import tools.xml.read.meta.metatype.LongXmlMetaType;
-import tools.xml.read.meta.metatype.ObjectXmlMetaType;
-import tools.xml.read.meta.metatype.ShortXmlMetaType;
-import tools.xml.read.meta.metatype.StringXmlMetaType;
+import tools.xml.meta.XmlMetaType;
+import tools.xml.meta.metatype.BigDecimalXmlMetaType;
+import tools.xml.meta.metatype.BooleanXmlMetaType;
+import tools.xml.meta.metatype.ByteXmlMetaType;
+import tools.xml.meta.metatype.DateXmlMetaType;
+import tools.xml.meta.metatype.DoubleXmlMetaType;
+import tools.xml.meta.metatype.FloatXmlMetaType;
+import tools.xml.meta.metatype.IntegerXmlMetaType;
+import tools.xml.meta.metatype.LongXmlMetaType;
+import tools.xml.meta.metatype.ObjectXmlMetaType;
+import tools.xml.meta.metatype.ShortXmlMetaType;
+import tools.xml.meta.metatype.StringXmlMetaType;
 
 /**  
  * 功能描述：
