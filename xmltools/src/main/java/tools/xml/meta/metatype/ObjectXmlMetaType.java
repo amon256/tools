@@ -36,4 +36,8 @@ public class ObjectXmlMetaType<T> extends XmlMetaType<T> {
 	public T parseValue(String content) throws Exception{
 		return classType.newInstance();
 	}
+	
+	public Class<T> getClassType(){
+		return classType;
+	}
 }

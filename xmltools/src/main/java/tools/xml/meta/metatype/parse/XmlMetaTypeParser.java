@@ -134,7 +134,9 @@ public class XmlMetaTypeParser<T> {
 		}
 		try {
 			Constructor<?> constructor = classType.getConstructor(constructorParameterTypes);
-			return (XmlMetaType) constructor.newInstance(newInstanceParams);
+			XmlMetaType<?> xmlMetaType = (XmlMetaType) constructor.newInstance(newInstanceParams);
+			xmlMetaType.setNodeName(nodeName);
+			return xmlMetaType;
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}

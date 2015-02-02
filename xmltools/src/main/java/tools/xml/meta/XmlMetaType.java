@@ -5,7 +5,7 @@
  */
 package tools.xml.meta;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 
@@ -25,12 +25,17 @@ public abstract class XmlMetaType<T> {
 	/**
 	 * 下级xml元数据类型(当前类型的成员变量元数据类型)
 	 */
-	private Map<String,XmlMetaType<?>> childXmlMetaTypes = new HashMap<String, XmlMetaType<?>>();
+	private Map<String,XmlMetaType<?>> childXmlMetaTypes = new LinkedHashMap<String, XmlMetaType<?>>();
 	
 	/**
 	 * 相应属性名,如果为空则取childXmlMetaTypes中对应的key
 	 */
 	private String fieldName;
+	
+	/**
+	 * 节点名称
+	 */
+	private String nodeName;
 	
 	public XmlMetaType(){
 		
@@ -77,5 +82,13 @@ public abstract class XmlMetaType<T> {
 
 	public void setFieldName(String fieldName) {
 		this.fieldName = fieldName;
+	}
+
+	public String getNodeName() {
+		return nodeName;
+	}
+
+	public void setNodeName(String nodeName) {
+		this.nodeName = nodeName;
 	}
 }

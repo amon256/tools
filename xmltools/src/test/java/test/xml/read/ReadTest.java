@@ -7,7 +7,6 @@ package test.xml.read;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.LinkedList;
 
 import javax.xml.parsers.ParserConfigurationException;
 
@@ -33,7 +32,6 @@ public class ReadTest {
 		XmlReader reader = new XmlReader(ParseTest.class.getClassLoader().getResourceAsStream("smsp.xml"));
 		XmlMetaType<Smsp> rootType = readMetaType("XmlMeta.xml");//createMetaType();//new ObjectXmlMetaType<HashMap>(HashMap.class);
 		long start = System.currentTimeMillis();
-		final LinkedList<Smsp> smspList = new LinkedList<Smsp>();
 		reader.readAsObject(rootType, "MonternetSpData/List/MonternetSp",new RootObjectAccessor<Smsp>() {
 			@Override
 			public void access(Smsp object) {
@@ -44,13 +42,14 @@ public class ReadTest {
 		System.out.println(System.currentTimeMillis() - start);
 	}
 	
+	@SuppressWarnings("rawtypes")
 	private static XmlMetaType readMetaType(String sourcePath) throws SAXException, IOException, ParserConfigurationException{
 		XmlMetaTypeParser<Smsp> parser = new XmlMetaTypeParser<Smsp>();
 		XmlMetaType<Smsp> type = parser.parse(ParseTest.class.getClassLoader().getResourceAsStream(sourcePath));
 		return type;
 	}
 	
-	@SuppressWarnings({ "unchecked", "rawtypes" })
+	@SuppressWarnings({ "unchecked", "rawtypes", "unused" })
 	private static XmlMetaType createMetaType(){
 		XmlMetaType smssp = new ObjectXmlMetaType(Smsp.class);
 		smssp.addChildXmlMetaTypes("SpName", new StringXmlMetaType("spName"));
