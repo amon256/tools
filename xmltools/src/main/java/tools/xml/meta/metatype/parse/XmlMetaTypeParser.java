@@ -69,15 +69,18 @@ public class XmlMetaTypeParser<T> {
 			return null;
 		}
 		XmlMetaType metaType = createXmlMetaType(ele);
-		NodeList nodeList = ele.getElementsByTagName("node");
+		NodeList nodeList = ele.getChildNodes();
 		int len = nodeList.getLength();
 		XmlMetaType childMetaType;
 		Element childEle;
 		for(int i = 0 ; i < len; i++){
+			if(! (nodeList.item(i) instanceof Element)){
+				continue;
+			}
 			childEle = (Element) nodeList.item(i);
 			childMetaType = createXmlMetaTypeByElement(childEle, metaType);
 			if(childMetaType != null){
-				metaType.addChildXmlMetaTypes(childEle.getAttribute("fieldName"), childMetaType);
+				metaType.addChildXmlMetaTypes(childEle.getAttribute("nodeName"), childMetaType);
 			}
 		}
 		return metaType;

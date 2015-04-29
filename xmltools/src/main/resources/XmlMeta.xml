@@ -4,7 +4,6 @@
 	<node nodeName="GWCode" fieldName="gwCode" nodeType="String" />
 	<node nodeName="PlateformIP" fieldName="ip" nodeType="String" />
 	<node nodeName="ProcId" fieldName="id" nodeType="String" />
-	<node nodeName="StartTime" fieldName="startTime" nodeType="date" pattern="yyyyMMddHHmmss" />
 	<node nodeName="ProvinceList" fieldName="provinceList" nodeType="Object" classType="java.util.ArrayList">
 		<node nodeName="Province" fieldName="i" nodeType="Object" classType="test.xml.read.Province">
 			<node nodeName="Status" fieldName="status" nodeType="String" />

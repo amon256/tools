@@ -5,23 +5,23 @@
  */
 package tools.xml.write;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.StringReader;
 import java.util.Collection;
+import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import javax.xml.parsers.ParserConfigurationException;
-
-import org.xml.sax.SAXException;
-
-import test.xml.read.Smsp;
 import tools.xml.meta.XmlMetaType;
 import tools.xml.meta.metatype.DateXmlMetaType;
 import tools.xml.meta.metatype.ObjectXmlMetaType;
-import tools.xml.meta.metatype.parse.XmlMetaTypeParser;
+import freemarker.template.Configuration;
+import freemarker.template.Template;
+import freemarker.template.TemplateException;
 
 /**  
  * 功能描述：xml输出
@@ -104,11 +104,32 @@ public class XmlWriter{
 		this.outputStream = outputStream;
 	}
 	
+	@SuppressWarnings("unchecked")
 	public <T> void write(Object sourceData,XmlMetaType<T> xmlMetaType,String rootPath,boolean format){
-		
+		Collection<Object> dataList = null;
+		if(sourceData instanceof Collection<?>){
+			dataList = (Collection<Object>)sourceData;
+		}else{
+			dataList = new LinkedList<Object>();
+			dataList.add(sourceData);
+		}
+		String rootField = getNextVar();
+		Map<String,Object> model = new HashMap<String, Object>();
+		model.put(rootField, dataList);
+		String templateString = generateTemplate(xmlMetaType, rootPath,rootField, format);
+		System.out.println(templateString);
+		Configuration config = new Configuration();
+		try {
+			Template template = new Template("", new StringReader(templateString), config);
+			template.process(model, new OutputStreamWriter(outputStream));
+		} catch (IOException e) {
+			throw new RuntimeException(e);
+		} catch (TemplateException e) {
+			throw new RuntimeException(e);
+		}
 	}
 	
-	public <T> String generateTemplate(XmlMetaType<T> xmlMetaType,String rootPath,boolean format){
+	public <T> String generateTemplate(XmlMetaType<T> xmlMetaType,String rootPath,String rootField,boolean format){
 		this.format = format;
 		if(rootPath == null){
 			rootPath = "";
@@ -129,11 +150,11 @@ public class XmlWriter{
 			}
 		}
 		
-		String rootField = getNextVar();//rootFieldName = D0  TODO
+//		String rootField = getNextVar();//rootFieldName = D0  TODO
 		String var = getNextVar();
-		template.append(leftIndent).append("<#list (" + rootField+ ")?if_exists as " + var + ">").append(getEnterLine(format));
-		generateTemplate(xmlMetaType, rootField, template);
-		template.append(leftIndent).append("</#list>").append(getEnterLine(format));
+		template.append("<#list (" + rootField+ ")?if_exists as " + var + ">").append(getEnterLine(format));
+		generateTemplate(xmlMetaType, var, template);
+		template.append("</#list>").append(getEnterLine(format));
 		
 		if(rootPaths != null && rootPaths.length > 0){
 			for(int i = rootPaths.length - 1; i >=0 ; i--){
@@ -159,7 +180,11 @@ public class XmlWriter{
 				&& Collection.class.isAssignableFrom(((ObjectXmlMetaType<?>)(xmlMetaType.getParentXmlMetaType())).getClassType())){
 			field = parentFieldName;
 		}else{
-			field = parentFieldName + "." + xmlMetaType.getFieldName();
+			if(xmlMetaType.getFieldName() != null && !"".equals(xmlMetaType.getFieldName())){
+				field = parentFieldName + "." + xmlMetaType.getFieldName();
+			}else{
+				field = parentFieldName;
+			}
 		}
 		if(isLeaf){
 			template.append(leftIndent).append(CDATA_LEFT);
@@ -182,19 +207,26 @@ public class XmlWriter{
 					if(Collection.class.isAssignableFrom(((ObjectXmlMetaType<?>)children).getClassType())){
 						//collection类型节点
 						//<#list (device.deviceExtList)?if_exists as deviceExt>
-						String var = getNextVar();
-						template.append(leftIndent).append("<#list (" + field+ ")?if_exists as " + var + ">").append(getEnterLine(format));
-						generateTemplate(children, var, template);
-						template.append(leftIndent).append("</#list>").append(getEnterLine(format));
+						generateTemplate(children, parentFieldName, template);
 					}else{
 						if(children.getParentXmlMetaType()  instanceof ObjectXmlMetaType 
 								&& Collection.class.isAssignableFrom(((ObjectXmlMetaType<?>)(children.getParentXmlMetaType())).getClassType())){
-							generateTemplate(children, parentFieldName, template);
+							String var = getNextVar();
+							template.append("<#list (" + field+ ")?if_exists as " + var + ">").append(getEnterLine(format));
+							generateTemplate(children, var, template);
+							template.append("</#list>").append(getEnterLine(format));
+							
 						}
 					}
 				}else{
 					//普通非叶子节点
-					generateTemplate(children, parentFieldName + "." + xmlMetaType.getFieldName(), template);
+					String fieldName = (xmlMetaType.getFieldName() == null || "".equals(xmlMetaType.getFieldName().trim())) ? parentFieldName : (parentFieldName + "." + xmlMetaType.getFieldName());
+					if(xmlMetaType.getParentXmlMetaType() != null 
+							&& xmlMetaType.getParentXmlMetaType() instanceof ObjectXmlMetaType 
+							&& Collection.class.isAssignableFrom(((ObjectXmlMetaType<?>)(xmlMetaType.getParentXmlMetaType())).getClassType())){
+						fieldName = parentFieldName;
+					}
+					generateTemplate(children,fieldName , template);
 				}
 			}
 		}
